@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcolor"
+    tools:context=".Homepage">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/applogo"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_height="180dp"
+        android:src="@drawable/casesolved"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="260dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/problemtxt"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/damagedroad"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/damagedroads" />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/damagedroads" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/damagedroad2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/accidentprone" />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/accidentprone" />
+    </LinearLayout>
+
+</RelativeLayout>

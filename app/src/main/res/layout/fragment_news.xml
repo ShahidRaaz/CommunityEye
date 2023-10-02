@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bgcolor"
+    tools:context=".ui.CommunityFragment">
+
+        <LinearLayout
+            android:id="@+id/frame_18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <Button
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:background="@drawable/backbtn" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="96dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logo_1" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/dnu" />
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="6dp"
+            android:layout_marginTop="200dp"
+            android:numColumns="2"
+            android:verticalSpacing="6dp">
+        </GridLayout>
+</FrameLayout>

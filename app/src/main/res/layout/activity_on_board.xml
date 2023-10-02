@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splashscreen"
+    android:background="@drawable/bgcolor"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<ImageView
+    android:id="@+id/logo_"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="192dp"
+    android:background="@drawable/logo_1"
+    />
+
+    <TextView
+        android:id="@+id/community_e"
+        android:layout_width="match_parent"
+        android:layout_height="32.2dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="500dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/community_e"
+        android:textAppearance="@style/community_e" />
+
+</RelativeLayout>
